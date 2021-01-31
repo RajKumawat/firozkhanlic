@@ -1,0 +1,76 @@
+.navbar-expand-lg
+{
+  background-color: #202327;
+  margin-top: 5px;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+  color: #deae2b;
+  font-size: large;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+  color: #ffffff;
+}
+.dropdown:hover .dropdown-menu 
+{
+  display: block;
+  margin-top: 0;
+}
+img.head-profile-photo
+{
+  width: 75px;
+  height: 80px;
+  border-radius: 40px;
+}
+.headprofile p
+{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+  font-size: x-large;
+  margin-left: 10px;
+}
+.headprofile p span
+{
+  display:block;
+  font-weight: 400;
+  line-height:1;
+  font-size: xx-large;
+}
+
+@media screen and (max-width: 600px) {
+  .tp-h-i {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px;) {
+  .h-p-a-d-s {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img.head-profile-photo {
+    width: 50px;
+    height: 60px;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headprofile p {
+    font-size: 20px;
+    color: #deae2b;
+  }
+  .headprofile p span {
+    font-size: 25px;
+    color: #deae2b;
+    margin-top: 10px;
+  }
+}
